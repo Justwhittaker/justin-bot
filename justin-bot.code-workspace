@@ -1,0 +1,13 @@
+{
+  "folders": [
+    {
+      "name": "justin-bot",
+      "path": "."
+    },
+    {
+      "name": "PRO4-Mealdeals",
+      "path": "../PRO4-Mealdeals"
+    }
+  ],
+  "settings": {}
+}
