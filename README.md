@@ -21,9 +21,19 @@ justin-bot/
 ├── run.py              # Entry point
 ├── requirements.txt
 ├── .env.example        # Copy to .env for secrets
+├── PRO4-Mealdeals/     # Git submodule — MealDeals Django app
+├── .cursor/agents/     # Cursor Agents sidebar entries
 └── src/justin_bot/
     ├── bot.py          # Core message handling
     └── main.py         # Interactive CLI loop
+```
+
+## Nested projects
+
+[PRO4-Mealdeals](https://github.com/Justwhittaker/PRO4-Mealdeals) is included as a git submodule at `PRO4-Mealdeals/`.
+
+```bash
+git submodule update --init --recursive
 ```
 
 ## Next steps
